@@ -1,0 +1,96 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    min-height:100%;
+    font-family: 'Roboto',  'Times New Roman', Times, serif;
+    display:flex;
+    flex-direction: column;
+}
+
+.header-container {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color: #1F2937; 
+    font-family:'Roboto','Times New Roman', Times, serif;
+    padding:10px; 
+    flex:1 1 auto;
+
+}
+
+.h-logo {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 16px;
+    color:#e5e7ebdd;
+    gap:10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;   
+}
+ 
+.hero-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #1F2937; 
+    font-family:'Roboto','Times New Roman', Times, serif;
+    padding: 10px;
+    gap: 70px;
+
+    
+    
+}
+
+.hero-text-button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-hero-text {
+    display:flex;
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+    flex:1;
+}
+
+.hero-text-button p {
+    display:flex;
+    font-size: 16px;
+    color:#e5e7ebdf;
+    margin-bottom: 5px;
+    max-width:500px;
+    flex:1;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius:8px;
+}
+
+.hero-text-button .sign-up {
+    background-color: rgb(51, 99, 246);
+    border: 1px solid royalblue;
+    color: #F9FAF8;
+    max-width:100px;
+}
