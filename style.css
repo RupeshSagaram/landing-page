@@ -50,7 +50,11 @@ a {
     align-items:center;
     background-color: #1F2937; 
     font-family:'Roboto','Times New Roman', Times, serif;
-    padding:50px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+
     gap: 60px;
     flex: 1 1 auto;
 }
@@ -135,6 +139,16 @@ button {
     flex-wrap:wrap;
 }
 
+.quote {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .quote_container p {
-    height:100px;
+    font-size: 34px;
+    font-style: italic;
+    font-weight: lighter;
+    width:800px;
+    color: #1f2937e3;
 }
