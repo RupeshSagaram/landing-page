@@ -49,11 +49,11 @@ a {
     justify-content:center;
     align-items:center;
     background-color: #1F2937; 
-    font-family:'Roboto','Times New Roman', Times, serif;
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:20px;
-    padding-bottom:20px;
+    font-family:'Times New Roman', 'Roboto', Times, serif;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:10px;
+    padding-bottom:10px;
 
     gap: 60px;
     flex: 1 1 auto;
@@ -151,4 +151,44 @@ button {
     font-weight: lighter;
     width:800px;
     color: #1f2937e3;
+}
+
+.call_contatiner{
+    display:flex;
+    height:200px;
+    justify-content: center;
+    align-items:center;
+}
+
+.call-to-action-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+    background-color:#3882F6;
+    gap:5px;
+    width:800px;
+    height:100px;
+    border-radius:7px;
+}
+
+.call-to-action-texts .call-action-p1 {
+    color: #F9FAF8;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.call-to-action-texts .call-action-p2 {
+    color: #f9faf8d2;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.call-sign-up-container button {
+    background-color: #3882F6;
+    border: 1.8px solid rgb(242, 242, 242);
+    color: #F9FAF8;
+    width:100px;
 }
