@@ -50,11 +50,9 @@ a {
     align-items:center;
     background-color: #1F2937; 
     font-family:'Roboto','Times New Roman', Times, serif;
-    padding: 10px;
-    gap: 70px;
-
-    
-    
+    padding:50px;
+    gap: 60px;
+    flex: 1 1 auto;
 }
 
 .hero-text-button {
@@ -93,4 +91,50 @@ button {
     border: 1px solid royalblue;
     color: #F9FAF8;
     max-width:100px;
+}
+
+.therapy_container {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    padding:20px;
+    gap:15px;
+    flex:1 1 auto;
+}
+
+.approaches_heading {
+    font-size:36px;
+    font-weight: bolder;
+    color:#1F2937
+}
+
+.approaches_images {
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.approaches_images img {
+    display:flex;
+    border-radius:10%;
+}
+
+.approaches_images p {
+    text-align: center;
+    font-size:15px;
+    color:#1F2937;
+}
+
+.quote_container {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding: 40px;
+    background-color:#E5E7EB;
+    flex-wrap:wrap;
+}
+
+.quote_container p {
+    height:100px;
 }
