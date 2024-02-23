@@ -192,3 +192,12 @@ button {
     color: #F9FAF8;
     width:100px;
 }
+
+.footer_container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
